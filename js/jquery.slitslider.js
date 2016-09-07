@@ -376,7 +376,7 @@
 				config.orientation = 'horizontal'
 			
 			}
-			
+		
 		},
 		_onEndNavigate : function( $slice, $oldSlide, dir ) {
 			
