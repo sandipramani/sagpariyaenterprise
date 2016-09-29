@@ -80,6 +80,26 @@ hr.soften {
   border: 0;
 }
 
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(bottom left, #fc737a 10%, #ff7c9d 65%, #ffc01a 125%);
+    background: linear-gradient(to top right, #fc737a 10%, #ff7c9d 65%, #ffc01a 125%);
+    width: 100%;
+    height: 100%;
+    z-index: 999999999;
+}
+#loader {
+    display: block;
+    background : url('../images/loader.gif') no-repeat center;
+    position: relative;
+    margin: 0 auto;
+    top: 45%;
+    width: 52px;
+    height: 140px;
+}
+
 
 
 /* Jumbotrons
