@@ -30,10 +30,21 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+<script type="text/javascript">
+    function preloadFunction () {
+  if ($('#loader').length) {
+    $('#loader').fadeOut(); // will first fade out the loading animation
+    $('#loader-wrapper').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+    $('body').delay(350).css({'overflow':'visible'});
+  };
+}
+</script>
 </head>
 
 <body>
-
+    <div id="loader-wrapper">
+        <div id="loader">Welcome to Sagpariya Enterprise</div>
+    </div>
     <!--Header-->
     <header class="navbar navbar-fixed-top">
         <div class="navbar-inner">
