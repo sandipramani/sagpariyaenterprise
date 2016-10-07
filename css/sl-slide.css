@@ -322,6 +322,15 @@
 }
 
 /* Reponive */
+@media screen and (max-width: 1920px){
+    .sl-slider-wrapper{height: 583px;}
+}
+@media screen and (max-width: 1680px){
+    .sl-slider-wrapper{height: 582px;}
+}
+@media screen and (max-width: 1366px){
+    .sl-slider-wrapper{height: 526px;}
+}
 @media screen and (max-width: 1366px){
     .sl-slider-wrapper{height: 488px;}
 }
