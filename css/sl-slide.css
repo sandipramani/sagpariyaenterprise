@@ -320,3 +320,32 @@
 		font-size: 16px;
 	}
 }
+
+/* Reponive */
+@media screen and (max-width: 1366px){
+    .sl-slider-wrapper{height: 488px;}
+}
+@media screen and (max-width: 1280px){
+    .sl-slider-wrapper{height: 466px;}
+}
+@media screen and (max-width: 1024px){
+    .sl-slider-wrapper{height: 372px;}
+}
+@media screen and (max-width: 980px){
+    .sl-slider-wrapper{height: 356px;}
+}
+@media screen and (max-width: 768px){
+    .sl-slider-wrapper{height: 280px;}
+}
+@media screen and (max-width: 640px){
+    .sl-slider-wrapper{height: 232px;}
+}
+@media screen and (max-width: 480px){
+    .sl-slider-wrapper{height: 175px;}
+}
+@media screen and (max-width: 360px){
+    .sl-slider-wrapper{height: 130px;}
+}
+@media screen and (max-width: 320px){
+    .sl-slider-wrapper{height: 117px;}
+}
